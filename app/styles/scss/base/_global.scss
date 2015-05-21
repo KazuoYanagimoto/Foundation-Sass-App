@@ -1,10 +1,10 @@
-// global styling
+// Custom Color Values
+$color-primary: hotpink;
+$color-secondary: aquamarine;
+
+// Global Styling
 body {
 	padding-top: 50px;
-}
-.starter-template {
-	padding: 40px 15px;
-	text-align: center;
 }
 footer {
 	position: fixed;
@@ -14,7 +14,8 @@ footer {
 	.heart {
 		color: $color-primary;
 		&:hover {
-			color: darken($color-primary, 20%);
+			color: $color-secondary;
 		}
 	}
 }
+
